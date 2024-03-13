@@ -1,0 +1,157 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: larger;
+    display: flex;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    display: flex;
+    align-self: flex-start;
+    color: #F9FAF8;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.middle {
+    display: flex;
+    /* flex-direction: column;  */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+img {
+ display: flex;
+ width: 350px;
+ max-height: 150px;
+}
+
+button {
+    display: flex;
+    max-width: 70px;
+    max-height: 100px;
+    margin-bottom: 5px;
+   }
+
+.middle-cut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h6 {
+    width: 255px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+h1 {
+    flex-wrap: wrap;
+    width: 250px;
+    margin-bottom: 5px;
+
+}
+
+.bottom { 
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 40px;
+}
+
+.botbot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.bot_img {
+    width: 150px;
+    height: auto;
+}
+
+.subtext {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: italic;
+    color: #1f2937;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 80px;
+    
+}
+
+.last {
+    background-color: blue;
+    margin: 150px;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.last-button {
+    background-color: blue;
+    outline: 2px solid white;
+}
+
+.last-one {
+    font-weight: bold;
+}
